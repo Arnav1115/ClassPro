@@ -572,4 +572,37 @@ export const Themes = [
 			practical: "100 200 100",
 		},
 	},
+	{
+    "title": "Arsenal FC Pride",
+    "mode": "light",
+    "mono": false,
+    "properties": {
+        "metacolor": "#DB0007",                     // Arsenal crimson-red (HEX allowed)
+
+        "background-normal": "250 250 250",         // near-white
+        "background-light": "255 255 255",          // pure white
+        "background-dark": "230 230 230",           // subtle grey
+        "background-darker": "210 210 210",         // deeper grey
+
+        "input": "219 0 7/0.15",                    // crimson input field w/ opacity
+        "button": "219 0 7",                        // classic Arsenal red
+        "side": "12 15 35",                         // deep navy blue for sidebar
+        "accent": "255 255 255",                    // white for accents
+
+        "color": "12 15 35",                        // navy for text
+
+        "error-background": "219 0 7",              // strong crimson
+        "error-color": "255 255 255",               // white text on error
+
+        "warn-background": "255 215 0",             // gold/yellow (Arsenal secondary highlight)
+        "warn-color": "12 15 35",
+
+        "success-background": "34 139 34",          // subtle green
+        "success-color": "255 255 255",
+
+        "info-background": "12 15 35",              // navy info box
+        "info-color": "255 255 255"
+    },
+},
+
 ];
